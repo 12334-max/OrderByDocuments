@@ -9,14 +9,14 @@ extension = {
 }
 
 #ruta de la carpeta descarga
-ruta_descarga = "tu ruta de descarga"
+ruta_descarga = "D:\Spartha"
 
 #rutas de desitino
 rutas = {
-    "Fotos": "ruta de fotos",
-    "Videos": "ruta de videos",
-    "Musica": "ruta de musica",
-    "Documentos": "ruta de documentos"
+    "Fotos": "D:\Pictures",
+    "Videos": "D:\Videos",
+    "Musica": "D:\Music",
+    "Documentos": "D:\Documents"
 
 }
 
