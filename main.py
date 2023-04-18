@@ -9,14 +9,14 @@ extension = {
 }
 
 #ruta de la carpeta descarga
-ruta_descarga = "D:\Spartha"
+ruta_descarga = "tu ruta de descarga"
 
 #rutas de desitino
 rutas = {
-    "Fotos": "D:\Pictures",
-    "Videos": "D:\Videos",
-    "Musica": "D:\Music",
-    "Documentos": "D:\Documents"
+    "Fotos": "ruta de fotos",
+    "Videos": "ruta de videos",
+    "Musica": "ruta de musica",
+    "Documentos": "ruta de documentos"
 
 }
 
@@ -30,7 +30,7 @@ def order_by_ext(file, ext):
                     try:
                         shutil.move(ruta_descarga+"/"+file, r)
                     except:
-                        print("Ocurrio un error al mover el archivo")
+                        print(f"Ocurrio un error al mover el archivo {file}")
 
 
 # Press the green button in the gutter to run the script.
