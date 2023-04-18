@@ -1,4 +1,7 @@
-/build
-/dist
+# created by virtualenv manual
+/build/*
+/dist/*
+.idea/*
+.gitignore
 OrdenarDocumentos.spec
 main.spec
